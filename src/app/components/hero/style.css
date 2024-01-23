@@ -151,7 +151,7 @@ ul li {
     justify-content:center;
     /* margin:0 auto; */
     /* text-align: flex-start;  */
-    height:25rem;
+    min-height:25rem;
     /* border: 2px solid transparent; */
     border-radius:3px;
     background-color: rgb(60, 59, 59,0.1);
@@ -397,7 +397,7 @@ ul li {
     justify-content: space-between;
     align-items:center;
     gap:1rem;
-    max-width:100vw;
+    max-width:99vw;
     /* margin: 0 auto; */
     /* height:100vh; */
     /* text-align: center; */
@@ -414,7 +414,7 @@ ul li {
 /* }  */
 
 .hero__video-vid{
-    width:60vw;
+    max-width:60vw;
     background-size:cover;
     aspect-ratio:16/9;
 }
@@ -579,8 +579,8 @@ ul li {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
-    width:40rem;
+    align-items: center;
+    /* width:40rem; */
     max-width:80vw;
     border-radius: 8px;
 }
@@ -752,6 +752,7 @@ ul li {
         /* text-align:left; */
         /* place-items:start; */
         /* place-content:start; */
+        /* font-size:1.2rem; */
     }
     .hero__section{
         /* margin:0; */
@@ -763,7 +764,7 @@ ul li {
     }
 
     .hero__companies-detail{
-        text-align:left;
+        /* text-align:left; */
     }
     .hero__video{
         /* text-align: left; */
@@ -774,7 +775,7 @@ ul li {
         /* height:100vh; */
     }
     .hero__video-vid{
-        width:80vw;
+        max-width:80vw;
     }
 
     .hero__video h1 {
@@ -795,7 +796,7 @@ ul li {
     .hero__appreciation > h1 {
         margin:1rem auto;
         padding:1rem 1.5rem;
-        text-align: left;
+        /* text-align: left; */
 
     }
     .appr__card{
@@ -804,18 +805,18 @@ ul li {
     }
 
     .hero__pricing{
-        text-align: left;
+        /* text-align: left; */
     }
 
     .hero__pricing h3{
-        text-align: left;
+        /* text-align: left; */
         max-width:80vw;
     }
     .hero__pricing_details{
         flex-direction: column;
     }
     .hero__pricing_details{
-        align-items: flex-start;
+        align-items: center;
     }
     .hero__faq{
         margin: 0;
