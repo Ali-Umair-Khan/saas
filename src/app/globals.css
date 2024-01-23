@@ -74,7 +74,7 @@ html {
     font-family: 'Quicksand', sans-serif;
     --color-blue: #29d;
     --color-green: #50C878;
-    width:140rem;
+    max-width:140rem;
     margin:0 auto;
     vertical-align: baseline;
     /* background-color:var(--color-green); */
