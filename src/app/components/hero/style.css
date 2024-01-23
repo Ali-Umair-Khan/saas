@@ -583,6 +583,7 @@ ul li {
     /* width:40rem; */
     max-width:80vw;
     border-radius: 8px;
+    padding:1.5rem 1rem;
 }
 
 .hero__pricing-details-c:hover{
