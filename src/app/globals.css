@@ -42,16 +42,8 @@
     overflow-x:hidden;
 } */
 
-body {
-    font-family: --font-primary;
-    color: --color-grey-dark-2;
-    color: --color-grey-light-1;
-    font-weight: 300;
-    line-height: 1.6;
-    margin: 0 auto;
-    background-color: white;
-    overflow-x: hidden;
-}
+
+
  /* body { */
   /* font-family: --font-primary; */
   /* font-family: var(--font-family-4); */
@@ -74,6 +66,19 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,200;0,300;0,400;0,500;1,100;1,400&display=swap');
 
 
+:root{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+--font-family-1: 'Abril Fatface', serif;
+--font-family-2: 'Alumni Sans Inline One', sans-serif;
+--font-family-3: 'Oxygen', Quicksand;
+--font-family-4: 'Quicksand', sans-serif;
+--font-family-5: 'Satisfy', cursive;
+--font-family-6: 'Sedgwick Ave Display', cursive;
+--font-italic: 'Edu TAS Beginner', Oxygen;
+--font-family-7:'Noto Sans Display', Oxygen;
+--color-1 : rgba(5, 64, 159, 0.9);
+}
+
 *, *::after, *::before {
   padding: 0;
   margin: 0;
@@ -90,6 +95,10 @@ html {
     /* overflow-x: hidden; */
     max-width:150rem;
   }
+
+
+
+  
 
   /* html {
     font-size: 62.5%;
@@ -123,18 +132,18 @@ html {
 
  } */
   
-:root{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
---font-family-1: 'Abril Fatface', serif;
---font-family-2: 'Alumni Sans Inline One', sans-serif;
---font-family-3: 'Oxygen', Quicksand;
---font-family-4: 'Quicksand', sans-serif;
---font-family-5: 'Satisfy', cursive;
---font-family-6: 'Sedgwick Ave Display', cursive;
---font-italic: 'Edu TAS Beginner', Oxygen;
---font-family-7:'Noto Sans Display', Oxygen;
---color-1 : rgba(5, 64, 159, 0.9);
+
+body {
+  font-family: --font-primary;
+  color: --color-grey-dark-2;
+  color: --color-grey-light-1;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 0 auto;
+  background-color: white;
+  overflow-x: hidden;
 }
+
 
 img{
   width:100%;
