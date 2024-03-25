@@ -4,7 +4,7 @@ config.autoAddCss = false;
 
 import './globals.css'
 import { Inter } from 'next/font/google'
-import ResponsiveMenu from './components/navbar/resMenu2.jsx'
+import ResponsiveMenu from './components/navbar2/resMenu2.jsx'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {

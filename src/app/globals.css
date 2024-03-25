@@ -77,6 +77,8 @@ html {
     max-width:140rem;
     margin:0 auto;
     vertical-align: baseline;
+    overflow-x: hidden;
+
     /* background-color:var(--color-green); */
 
   }

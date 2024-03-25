@@ -193,9 +193,10 @@ ul li {
     /* place-items: center; */
     /* place-content:center; */
     gap:1rem;
-    max-width:80vw;
+    /* max-width:90vw; */
     padding-top:5rem;
-    text-align:center;
+    margin-left:2.5rem;
+    /* text-align:center; */
     /* margin: 0 auto; */
 }
 
@@ -754,6 +755,9 @@ ul li {
         /* place-items:start; */
         /* place-content:start; */
         /* font-size:1.2rem; */
+    }
+    .card{
+        max-width:80vw;
     }
     .hero__section{
         /* margin:0; */
