@@ -48,10 +48,23 @@ body {
     color: --color-grey-light-1;
     font-weight: 300;
     line-height: 1.6;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     background-color: white;
-
+    overflow-x: hidden;
 }
+
+/* body {
+  /* font-family: --font-primary; */
+  font-family: var(--font-family-4);
+  /* color: --color-grey-dark-2; */
+  /* color: --color-grey-light-1; */
+  font-weight: 300;
+  line-height: 1.6;
+  /* margin: 0 auto; */ 
+  background-color: white;
+  overflow-x: hidden;
+} */
+
 
 /* @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Satisfy&display=swap'); */
