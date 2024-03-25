@@ -78,6 +78,8 @@ html {
     margin:0 auto;
     vertical-align: baseline;
     overflow-x: hidden;
+    max-width:150rem;
+
 
     /* background-color:var(--color-green); */
 

@@ -193,7 +193,7 @@ ul li {
     /* place-items: center; */
     /* place-content:center; */
     gap:1rem;
-    /* max-width:90vw; */
+    max-width:99vw;
     padding-top:5rem;
     margin-left:2.5rem;
     /* text-align:center; */
