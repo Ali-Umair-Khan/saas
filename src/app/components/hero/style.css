@@ -676,6 +676,7 @@ ul li {
     border-radius: 5px;
     position: relative;
     width:100%;
+    cursor:pointer;
     max-width:98vw;
     /* width: */
 }
@@ -757,7 +758,7 @@ ul li {
         /* font-size:1.2rem; */
     }
     .card{
-        max-width:80vw;
+        width:80vw;
     }
     .hero__section{
         /* margin:0; */

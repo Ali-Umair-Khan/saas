@@ -29,7 +29,7 @@ import './footerStyle.css'
                     <Link href='/'>Follow us on Instagram</Link>
                     <Link href='/'>Follow us on Pinterest</Link>
                     <Link href='/'>Follow us on Flipboard</Link>    
-                    <Link href='/' style={{color:'white'}}>rexexpert@gmail.com</Link>
+                    <Link href='/'>Email us.</Link>
                 </div>
             </div>
             <div className='footer__copyright'>
