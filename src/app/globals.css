@@ -91,9 +91,9 @@ html {
     --color-blue: #29d;
     --color-green: #50C878;
     margin:0 auto;
-    /* vertical-align: baseline; */
-    /* overflow-x: hidden; */
-    max-width:140rem;
+    vertical-align: baseline;
+    overflow-x: hidden;
+    max-width:150rem;
   }
 
 
