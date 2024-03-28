@@ -247,8 +247,8 @@ nav{
         .navbar__close  {
             display:none;
             position:absolute;
-            top:0rem;
-            right:1rem;
+            top:3rem;
+            right:1.5rem;
             // color:rgb(254, 244, 202);
             color:rgba(5, 64, 159, 0.9);
             cursor: pointer;
@@ -268,7 +268,7 @@ nav{
     .navbar__open {
         display:none;
         position:absolute;
-        top:2rem;
+        top:4rem;
         right:2rem;
         // color:rgb(251, 249, 200);
         // color:rgba(37, 37, 38, 0.9);
