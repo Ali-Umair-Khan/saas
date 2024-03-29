@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import './footerStyle.css'
+import './footer.scss';
+
  const FooterComponent = () => {
     return(
         <div className='footer'>

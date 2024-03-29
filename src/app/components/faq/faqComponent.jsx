@@ -3,9 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faPlus,faMinus,faWindowMinimize,faBars
 } from "@fortawesome/free-solid-svg-icons";
-import {faqData} from './data';
+import {faqData} from '../data';
 import {useState} from 'react';
-import './style.css'
+import './faq.scss';
+
 const FaqComponent = () =>{
     const [faqs,setFaqs]=useState(faqData);
     console.log(faqs);

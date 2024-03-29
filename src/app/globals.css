@@ -87,13 +87,13 @@
 html {
     font-size: 62.5%;
     line-height: 1.6;
-    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
     --color-blue: #29d;
     --color-green: #50C878;
     margin:0 auto;
     vertical-align: baseline;
     overflow-x: hidden;
-    max-width:150rem;
+    max-width:140rem;
   }
 
 
@@ -134,7 +134,7 @@ html {
   
 
 body {
-  font-family: --font-primary;
+  font-family: var(--font-family-3);
   color: --color-grey-dark-2;
   color: --color-grey-light-1;
   font-weight: 300;
@@ -158,3 +158,15 @@ img{
   width: var(--max-width);
   max-width: 100%;
 } */
+
+
+
+.container {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, min(50rem,100%)); */
+  place-items:center;
+  place-content:center;
+  width: 150rem;
+  max-width: 99vw;
+  font-family: var(--font-family-5);
+} 

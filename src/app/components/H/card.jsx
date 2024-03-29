@@ -5,7 +5,7 @@ import {
     faCalendarCheck,
     faMap
 } from "@fortawesome/free-solid-svg-icons";
-import './style.css'
+import './h.scss'
 const Card = ({icon,name,text, icon_color}) =>{
     return(
         <div className='card'>

@@ -9,14 +9,14 @@ import {
     faUser
 } from "@fortawesome/free-solid-svg-icons";
 import Link from 'next/link'
-import Card from './card';
+import Card from '../H/card';
 import './style.css'
 import ResponsiveMenu from '../navbar/resMenu2.jsx';
-import AppreciationCards from "./appCards";
-import {pricing} from './data.js';
-import PricingComponent from './priceComponent.jsx';
-import FaqComponent from './faqComponent';
-import FooterComponent from './footer'
+import AppreciationCards from "../appreciation/appCards";
+import {pricing} from '../data.js';
+import PricingComponent from '../pricing/priceComponent.jsx';
+import FaqComponent from '../faq/faqComponent';
+import FooterComponent from '../footer/footerC'
 const Hero = () => {
     return(
          <div className='container'>
@@ -88,6 +88,7 @@ const Hero = () => {
                 <div className='hero__faq'>
                     <FaqComponent/>
                 </div>
+
                 <div className='hero__footer'>
                     <FooterComponent/>
                 </div>

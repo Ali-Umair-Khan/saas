@@ -5,6 +5,7 @@
   /* grid-template-columns: repeat(auto-fit, min(50rem,100%)); */
   place-items:center;
   place-content:center;
-  width: 140rem;
-  max-width: 100%;
+  width: 150rem;
+  max-width: 99vw;
+  font-family: var(--font-family-5);
 } 

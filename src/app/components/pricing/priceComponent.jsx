@@ -3,7 +3,7 @@ import {
     faCheck
 } from "@fortawesome/free-solid-svg-icons";
 
-import './style.css'
+import './pricing.scss';
 const PricingComponent = ({features}) => {
     const {type,text,price,qualities}= features;
     return(
